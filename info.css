@@ -1,0 +1,217 @@
+h4 {
+ text-decoration: overline;
+}
+
+
+h2 {
+  background-color: #FF69B4;
+  color: white; 
+}
+ 
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: rgba(255, 99, 71, 0.4);
+  border: 2px solid rgba(255, 99, 71, 0.4);
+}
+  
+.text-block { 
+  position: absolute;
+  border: 1px solid white;
+  font-weight: bold;
+  text-align: center;
+  bottom: 10px;
+  right: 70px;
+  background-color: violet; 
+  color: white;
+  padding-left: 10px; 
+  padding-right: 10px;
+  }
+
+.picLeft {
+  float:left;
+  margin-left:65px; 
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: rgba(255, 99, 71, 0.4);
+  padding: 20px;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 80px;
+  color: white;
+  font-weight: bold;
+  background-color: black; 
+  border: 1px solid white;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 80px;
+  color: white;
+  font-weight: bold;
+  background-color: black; 
+  border: 1px solid white;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 80px;
+  color: white;
+  font-weight: bold;
+  background-color: black; 
+  border: 1px solid white;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 80px;
+  color: white;
+  font-weight: bold;
+  background-color: black; 
+  border: 1px solid white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  background-color: black; 
+  border: 1px solid white;
+}
+
+.container { 
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif; 
+  
+  }
+  
+.text-block { 
+  position: absolute;
+  border: 1px solid white;
+  font-weight: bold;
+  text-align: center;
+  bottom: 10px;
+  right: 70px;
+  background-color: violet; 
+  color: white;
+  padding-left: 10px; 
+  padding-right: 10px;
+  }
+  
+ 
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 18px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+body {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 16px;
+}
+	 
+    p {
+	   border: 2px;
+	   padding: 6px; 
+	  } 
+	  
+
+    *{
+        box-sizing: border-box;
+    }
+
+    .column0 {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+	}	
+	
+	.column1 {
+        float: right;
+		width: 33.33%;
+        padding: 5px;
+    }	
+	
+	.column2 {
+        float: center;
+		width: 33.33%;
+        padding: 5px;
+    }
+	body { 
+    background-image: url("dt/background/background.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+{
+	require("dt");
+}
